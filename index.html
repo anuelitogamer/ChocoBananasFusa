@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choco Bananas Fusa</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #fff9e6;
+            color: #000;
+        }
+
+        header {
+            background: linear-gradient(135deg, #ffd500, #ff9800);
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            background-color: #000;
+            color: #ffd500;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #5d3a1a;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 20px;
+            padding: 25px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            border-top: 8px solid #ff9800;
+        }
+
+        .card h2 {
+            color: #ff9800;
+            margin-bottom: 15px;
+        }
+
+        .precio {
+            font-size: 2.5rem;
+            background-color: #ffd500;
+            padding: 15px;
+            border-radius: 15px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .promo {
+            background-color: #000;
+            color: #ffd500;
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .promo h2 {
+            margin-bottom: 10px;
+        }
+
+        .contacto {
+            background-color: #5d3a1a;
+            color: #fff;
+            border-radius: 20px;
+            padding: 30px;
+            margin-top: 40px;
+        }
+
+        .contacto h2 {
+            color: #ffd500;
+            margin-bottom: 20px;
+        }
+
+        .contacto a {
+            color: #ffd500;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .redes span {
+            display: block;
+            margin-top: 8px;
+            font-weight: bold;
+            color: #ffd500;
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9rem;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🍌 Choco Bananas Fusa 🍫</h1>
+        <p>El mejor sabor en bananos cubiertos de chocolate</p>
+
+        <a class="btn" href="https://wa.me/573142203201" target="_blank">
+            📲 Pide por WhatsApp
+        </a>
+    </header>
+
+    <section>
+        <div class="cards">
+            <div class="card">
+                <h2>🍫 Nuestro Producto</h2>
+                <p>
+                    En <strong>Choco Bananas Fusa</strong> preparamos deliciosos bananos cubiertos de chocolate,
+                    hechos con ingredientes de alta calidad, perfectos para compartir,
+                    regalar o darte un gusto único.
+                </p>
+            </div>
+
+            <div class="card">
+                <h2>💰 Precio</h2>
+                <div class="precio">$10.000 COP</div>
+                <p style="text-align:center; margin-top:10px;">
+                    Precio por unidad
+                </p>
+            </div>
+
+            <div class="card">
+                <h2>🚚 Domicilio</h2>
+                <p>
+                    Realizamos domicilios rápidos en Fusagasugá.
+                    Escríbenos y recibe tu pedido sin complicaciones.
+                </p>
+            </div>
+        </div>
+
+        <div class="promo">
+            <h2>🎉 PROMOCIÓN DE DICIEMBRE 🎉</h2>
+            <p>
+                🎁 <strong>Domicilio TOTALMENTE GRATIS</strong><br>
+                Solo por el mes de diciembre
+            </p>
+        </div>
+
+        <div class="contacto">
+            <h2>📞 Contáctanos</h2>
+
+            <p>📱 <strong>WhatsApp:</strong></p>
+            <p>
+                <a href="https://wa.me/573142203201" target="_blank">314 220 3201 – Johan Arango</a><br>
+                <a href="https://wa.me/573108790730" target="_blank">310 879 0730 – Dilan Torres</a>
+            </p>
+
+            <p style="margin-top:15px;">
+                📧 <strong>Correo:</strong><br>
+                chocobananasfusa@gmail.com
+            </p>
+
+            <div class="redes" style="margin-top:20px;">
+                <p><strong>📲 Redes Sociales:</strong></p>
+                <span>🔴 TikTok: @ChocoBananasFusa</span>
+                <span>🔴 Instagram: @ChocoBananasFusa</span>
+            </div>
+
+            <a class="btn" href="https://wa.me/573142203201" target="_blank">
+                🍌 Ordena Ahora
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 Choco Bananas Fusa | Hecho con ❤️ y mucho chocolate 🍫
+    </footer>
+
+</body>
+</html>
